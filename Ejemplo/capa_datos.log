@@ -1,0 +1,78 @@
+07:34:56 AM: DEBUG [logger_base.py] :10 Mensaje debug 
+07:34:56 AM: WARNING [logger_base.py] :11 Mensaje warning 
+07:34:56 AM: ERROR [logger_base.py] :12 Mensaje error 
+07:34:56 AM: CRITICAL [logger_base.py] :13 Mensaje Critico 
+07:35:10 AM: WARNING [logger_base.py] :11 Mensaje warning 
+07:35:10 AM: ERROR [logger_base.py] :12 Mensaje error 
+07:35:10 AM: CRITICAL [logger_base.py] :13 Mensaje Critico 
+07:37:59 AM: DEBUG [Conexion.py] :9 <connection object at 0x00000223818A29B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:38:39 AM: DEBUG [Conexion.py] :9 <connection object at 0x000002403C4E29B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:38:47 AM: DEBUG [Conexion.py] :9 <connection object at 0x00000213B4FA29B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:42:10 AM: DEBUG [Conexion.py] :9 <connection object at 0x00000194142F29B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:46:40 AM: DEBUG [Conexion.py] :9 <connection object at 0x000002A2D58006A0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:46:40 AM: DEBUG [Conexion.py] :13 [('Hugo',), ('Valeria',), ('Jesus',), ('Fernanda',)] 
+07:47:15 AM: ERROR [commits.py] :24 'str' object has no attribute 'valores' 
+07:47:36 AM: ERROR [commits.py] :24 el valor nulo en la columna «idCliente» de la relación «cliente» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, Daniel).
+ 
+07:50:19 AM: ERROR [commits.py] :25 not all arguments converted during string formatting 
+07:51:15 AM: ERROR [commits.py] :24 not all arguments converted during string formatting 
+07:52:57 AM: ERROR [commits.py] :25 not all arguments converted during string formatting 
+08:02:09 AM: DEBUG [commits.py] :15 Insert 
+08:02:09 AM: ERROR [commits.py] :24 no existe la columna «idcliente»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE idCliente = 1
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:02:50 AM: DEBUG [commits.py] :15 Insert 
+08:02:50 AM: ERROR [commits.py] :24 la sintaxis de entrada no es válida para tipo integer: «idCliente»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE 'idCliente' = 1
+                                                  ^
+ 
+08:03:01 AM: DEBUG [commits.py] :15 Insert 
+08:03:01 AM: ERROR [commits.py] :24 no existe la columna «idcliente»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE idCliente = 1
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:06:40 AM: ERROR [commits.py] :24 el valor nulo en la columna «idCliente» de la relación «cliente» viola la restricción de no nulo
+DETAIL:  La fila que falla contiene (null, Daniel).
+ 
+08:06:52 AM: ERROR [commits.py] :24 not all arguments converted during string formatting 
+08:07:17 AM: ERROR [commits.py] :24 name 'cursor' is not defined 
+08:07:28 AM: ERROR [commits.py] :24 no existe la columna «idcliente»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE idCliente = 1
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:08:06 AM: ERROR [commits.py] :24 error de sintaxis en o cerca de «=»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE `idCliente` = 1
+                                                              ^
+ 
+08:08:21 AM: ERROR [commits.py] :24 no existe la columna «´idcliente´»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE ´idCliente´ = 1
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:08:33 AM: ERROR [commits.py] :24 no existe la columna «idcliente»
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE idCliente = 1
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:08:51 AM: ERROR [commits.py] :24 no existe la columna cliente.idcliente
+LINE 1: UPDATE cliente SET nombre = 'Jaime' WHERE cliente.idCliente ...
+                                                  ^
+HINT:  Probablemente quiera hacer referencia a la columna «cliente.idCliente».
+ 
+08:09:43 AM: DEBUG [Conexion.py] :9 <connection object at 0x00000270488429B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+08:09:43 AM: DEBUG [Conexion.py] :13 [('Oscar',), ('Valeria',), ('Jesus',), ('Fernanda',)] 
+08:10:52 AM: DEBUG [Conexion.py] :13 [('Oscar',), ('Valeria',), ('Jesus',), ('Fernanda',)] 
+07:27:40 AM: DEBUG [Conexion.py] :9 <connection object at 0x000001A0E80C29B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:27:40 AM: DEBUG [Conexion.py] :13 [(1, 'Oscar'), (2, 'Valeria'), (3, 'Jesus'), (4, 'Fernanda')] 
+07:40:33 AM: DEBUG [Conexion.py] :9 <connection object at 0x00000206486129B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:40:33 AM: DEBUG [Conexion.py] :13 [(1, 'Oscar'), (2, 'Valeria'), (3, 'Jesus'), (4, 'Fernanda')] 
+07:41:04 AM: DEBUG [with.py] :9 <connection object at 0x000002570EB829B0; dsn: 'user=postgres password=xxx dbname=clase_db host=localhost port=5432', closed: 0> 
+07:41:04 AM: ERROR [with.py] :23 no existe la columna «idcliente» en la relación «cliente»
+LINE 1:  INSERT INTO cliente(idCliente, nombre) Values(5, 'Juan')
+                             ^
+ 
